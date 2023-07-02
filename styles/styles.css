@@ -303,3 +303,50 @@ footer section div{
 .contactenos {
     display:flex;
 }
+
+
+/* Dispositivos con un ancho máximo de 600px */
+@media (max-width: 600px) {
+    header {
+       background-color: var(--nombre-color);
+       height: 550px;
+       width: 100%;
+       display: block;
+    }
+
+    header p {
+        text-align:left;
+    }
+
+    main {
+        width: 100%;
+        margin-top:360px;
+        gap: 12px;
+    }
+
+    main .article {
+        gap: 12px;
+    }
+
+    .container {
+        gap: 12px;
+        width: 10%;
+    }
+
+    .article {
+        width: 50%;
+    }
+
+    .blog {
+        margin-bottom: 20px;
+    }
+
+    footer section {
+        background-color: #000101;
+    }
+
+    footer section div {
+        display:block;
+    }
+}
+  
