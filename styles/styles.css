@@ -197,18 +197,32 @@ div h3 {
     font-size: 25px;
     flex-direction: row;
     text-align: center;
+    background-color: rgb(171, 115, 124);
 }
 
 
 #capilar {
-    border: solid 1px var(--background-color1);
     width: 50%;
+    margin-bottom: 30px;
 }
 
 
 #facial {
-    border: solid 1px var(--background-color1);
     width: 50%;
+    margin-bottom: 30px;
+}
+
+
+.titulo-tarjeta {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.texto-tarjeta {
+    font-size: 25px;
+    
 }
 
 
